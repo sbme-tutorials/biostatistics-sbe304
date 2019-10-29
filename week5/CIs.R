@@ -1,3 +1,5 @@
+## Credits: Copyright (c) 2013 Rafael Irizarry and Michael Love
+
 dat <- read.csv("../data/mice_pheno.csv")
 chowPopulation <- dat[dat$Sex=="F" & dat$Diet=="chow",3]
 
